@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body > header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: turquoise
+  }
+  
+  body > header > h1 {
+    padding-left: 16px;
+    color: white;
+  }
+
+ body > header > nav > ul {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: right;
+    list-style: none;
+  }
+
+  body > main > section{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    list-style: none;
+    color: royalblue
+  }
+
+  body > main > section > article > main >ul>ul{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: right;
+    list-style: none;
+  }
